@@ -1,0 +1,975 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="439" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Khaled\Downloads\FAC\federal_awards.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>FAC_Awards</AnnotationText>
+          <DefaultAnnotationText>federal_awards.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="report_id" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="auditee_uei" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="audit_year" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="award_reference" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="federal_agency_prefix" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="federal_award_extension" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="additional_award_identification" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="federal_program_name" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="amount_expended" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="cluster_name" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="other_cluster_name" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="state_cluster_name" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="cluster_total" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="federal_program_total" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="is_major" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="is_loan" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="loan_balance" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="is_direct" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="audit_report_type" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="findings_count" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="is_passthrough_award" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+            <Field name="passthrough_amount" size="254" source="File: C:\Users\Khaled\Downloads\FAC\federal_awards.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="319" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Khaled\Downloads\FAC\corrective_action_plans.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>FAC_Corrective_Action_Plans</AnnotationText>
+          <DefaultAnnotationText>corrective_action_plans.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="report_id" size="254" source="File: C:\Users\Khaled\Downloads\FAC\corrective_action_plans.csv" type="V_String" />
+            <Field name="auditee_uei" size="254" source="File: C:\Users\Khaled\Downloads\FAC\corrective_action_plans.csv" type="V_String" />
+            <Field name="audit_year" size="254" source="File: C:\Users\Khaled\Downloads\FAC\corrective_action_plans.csv" type="V_String" />
+            <Field name="finding_ref_number" size="254" source="File: C:\Users\Khaled\Downloads\FAC\corrective_action_plans.csv" type="V_String" />
+            <Field name="contains_chart_or_table" size="254" source="File: C:\Users\Khaled\Downloads\FAC\corrective_action_plans.csv" type="V_String" />
+            <Field name="planned_action" size="254" source="File: C:\Users\Khaled\Downloads\FAC\corrective_action_plans.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="211" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Khaled\Downloads\FAC\general.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>FAC_General</Name>
+          <AnnotationText>FAC_General</AnnotationText>
+          <DefaultAnnotationText>general.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="report_id" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_uei" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="audit_year" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_certify_name" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_certify_title" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_contact_name" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_email" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_name" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_phone" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_contact_title" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_address_line_1" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_city" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_state" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_ein" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_zip" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_certify_name" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_certify_title" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_phone" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_state" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_city" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_contact_title" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_address_line_1" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_zip" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_country" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_contact_name" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_email" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_firm_name" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_foreign_address" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_ein" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="cognizant_agency" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="oversight_agency" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="date_created" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="ready_for_certification_date" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditor_certified_date" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="auditee_certified_date" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="submitted_date" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="fac_accepted_date" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="fy_end_date" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="fy_start_date" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="audit_type" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="gaap_results" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="sp_framework_basis" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_sp_framework_required" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="sp_framework_opinions" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_going_concern_included" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_internal_control_deficiency_disclosed" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_internal_control_material_weakness_disclosed" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_material_noncompliance_disclosed" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="dollar_threshold" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_low_risk_auditee" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="agencies_with_prior_findings" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="entity_type" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="number_months" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="audit_period_covered" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="total_amount_expended" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="type_audit_code" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_public" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="data_source" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_aicpa_audit_guide_included" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_additional_ueis" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_multiple_eins" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+            <Field name="is_secondary_auditors" size="254" source="File: C:\Users\Khaled\Downloads\FAC\general.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="103" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\Khaled\AppData\Local\Temp\Alteryx\Engine_29348_d93d338fb28747aaaf085cf1057880df_\Engine_29348_25e07fc50c1fbe47ba8007b8a52fd478~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="211" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Khaled\AppData\Local\Temp\Alteryx\Engine_29348_d93d338fb28747aaaf085cf1057880df_\Engine_29348_6c422a070d4bd24fa44ee5e4b7a4ee6e~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="319" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Khaled\AppData\Local\Temp\Alteryx\Engine_29348_d93d338fb28747aaaf085cf1057880df_\Engine_29348_cb3f2cf212c87a4385dff047f6aa340b~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="439" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\Khaled\AppData\Local\Temp\Alteryx\Engine_29348_d93d338fb28747aaaf085cf1057880df_\Engine_29348_6ba8e7c759d1044d8437056b1f8de75a~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="103" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Khaled\Downloads\FAC\findings.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>FAC_Findings</AnnotationText>
+          <DefaultAnnotationText>findings.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="report_id" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="auditee_uei" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="audit_year" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="award_reference" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="reference_number" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="is_material_weakness" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="is_modified_opinion" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="is_other_findings" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="is_other_matters" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="prior_finding_ref_numbers" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="is_questioned_costs" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="is_repeat_finding" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="is_significant_deficiency" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+            <Field name="type_requirement" size="254" source="File: C:\Users\Khaled\Downloads\FAC\findings.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="893" y="102" width="442" height="357" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>FAC General and Findings Join and CSV Output</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>FAC General and Findings Join and CSV Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="918" y="259" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="auditee_uei" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="auditee_uei" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_auditee_uei" selected="False" rename="Right_auditee_uei" input="Right_" />
+                    <SelectField field="Left_auditee_uei" selected="True" input="Left_" />
+                    <SelectField field="Right_Count" selected="True" input="Right_" />
+                    <SelectField field="Left_CountDistinct_audit_year" selected="True" input="Left_" />
+                    <SelectField field="Right_CountDistinct_audit_year" selected="True" rename="Right_CountDistinct_audit_year" input="Right_" />
+                    <SelectField field="Left_CountDistinct_report_id" selected="True" input="Left_" />
+                    <SelectField field="Left_First_auditee_city" selected="True" input="Left_" />
+                    <SelectField field="Left_First_auditee_ein" selected="True" input="Left_" />
+                    <SelectField field="Left_First_auditee_name" selected="True" input="Left_" />
+                    <SelectField field="Left_First_auditee_state" selected="True" input="Left_" />
+                    <SelectField field="Left_First_auditee_zip" selected="True" input="Left_" />
+                    <SelectField field="Left_First_cognizant_agency" selected="True" input="Left_" />
+                    <SelectField field="Left_First_entity_type" selected="True" input="Left_" />
+                    <SelectField field="Left_Max_audit_year" selected="True" input="Left_" />
+                    <SelectField field="Right_Max_audit_year" selected="True" rename="Right_Max_audit_year" input="Right_" />
+                    <SelectField field="Right_Min_audit_year" selected="True" rename="Right_Min_audit_year" input="Right_" />
+                    <SelectField field="Left_Min_audit_year" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_going_concern_num" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_internal_control_def_num" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_low_risk_num" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_material_weakness_gen_num" selected="True" input="Left_" />
+                    <SelectField field="Right_Sum_material_weakness_number" selected="True" input="Right_" />
+                    <SelectField field="Right_Sum_modified_opinion_number" selected="True" input="Right_" />
+                    <SelectField field="Left_Sum_noncompliance_num" selected="True" input="Left_" />
+                    <SelectField field="Left_Sum_prior_findings_num" selected="True" input="Left_" />
+                    <SelectField field="Right_Sum_questioned_costs_number" selected="True" input="Right_" />
+                    <SelectField field="Right_Sum_repeat_finding_number" selected="True" input="Right_" />
+                    <SelectField field="Right_Sum_significant_deficiency_number" selected="True" input="Right_" />
+                    <SelectField field="Left_Sum_total_amount_expended_num" selected="True" input="Left_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1038" y="151" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Khaled\AppData\Local\Temp\Alteryx\Engine_29348_d93d338fb28747aaaf085cf1057880df_\Engine_29348_a9dadb3b392e704faea093f282f224e7~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>FAC_Master Joined</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1038" y="259" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF([Count] &gt;= 3 OR [Sum_going_concern_num] &gt;= 1 OR [Sum_material_weakness_gen_num] &gt;= 1, 1, 0)" field="is_problem_entity" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="([Count] * 10) + ([Sum_material_weakness_gen_num] * 50) + ([Sum_going_concern_num] * 30) + ([Sum_noncompliance_num] * 20)" field="risk_score" size="8" type="Double" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>is_problem_entity = IIF([Count] &gt;= 3 OR [Sum_going_concern_num] &gt;= 1 OR [Sum_mat...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1206" y="343" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Khaled\AppData\Local\Temp\Alteryx\Engine_29348_d93d338fb28747aaaf085cf1057880df_\Engine_29348_c350cea2c9c32f41b7163584d550d690~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>FAC_With_Risk_Score</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1206" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\Khaled\Documents\!--AGA Datathon\FAC\FAC_Master_With_Risk_Score.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>FAC_Master_With_Risk_Score Output Data File</AnnotationText>
+              <DefaultAnnotationText>FAC_Master_With_Risk_Score.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="305" y="317" width="546" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>FAC_General Workflow</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>FAC_General Workflow</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="330" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="agencies_with_prior_findings" selected="True" />
+                <SelectField field="audit_period_covered" selected="True" />
+                <SelectField field="audit_type" selected="True" />
+                <SelectField field="audit_year" selected="True" />
+                <SelectField field="auditee_address_line_1" selected="False" />
+                <SelectField field="auditee_certified_date" selected="False" />
+                <SelectField field="auditee_certify_name" selected="False" />
+                <SelectField field="auditee_certify_title" selected="False" />
+                <SelectField field="auditee_city" selected="True" />
+                <SelectField field="auditee_contact_name" selected="False" />
+                <SelectField field="auditee_contact_title" selected="False" />
+                <SelectField field="auditee_ein" selected="True" />
+                <SelectField field="auditee_email" selected="False" />
+                <SelectField field="auditee_name" selected="True" />
+                <SelectField field="auditee_phone" selected="False" />
+                <SelectField field="auditee_state" selected="True" />
+                <SelectField field="auditee_uei" selected="True" />
+                <SelectField field="auditee_zip" selected="True" />
+                <SelectField field="auditor_address_line_1" selected="False" />
+                <SelectField field="auditor_certified_date" selected="False" />
+                <SelectField field="auditor_certify_name" selected="False" />
+                <SelectField field="auditor_certify_title" selected="False" />
+                <SelectField field="auditor_city" selected="True" />
+                <SelectField field="auditor_contact_name" selected="False" />
+                <SelectField field="auditor_contact_title" selected="False" />
+                <SelectField field="auditor_country" selected="False" />
+                <SelectField field="auditor_ein" selected="True" />
+                <SelectField field="auditor_email" selected="False" />
+                <SelectField field="auditor_firm_name" selected="True" />
+                <SelectField field="auditor_foreign_address" selected="False" />
+                <SelectField field="auditor_phone" selected="False" />
+                <SelectField field="auditor_state" selected="True" />
+                <SelectField field="auditor_zip" selected="False" />
+                <SelectField field="cognizant_agency" selected="True" />
+                <SelectField field="data_source" selected="False" />
+                <SelectField field="date_created" selected="False" />
+                <SelectField field="dollar_threshold" selected="False" />
+                <SelectField field="entity_type" selected="True" />
+                <SelectField field="fac_accepted_date" selected="True" />
+                <SelectField field="fy_end_date" selected="True" />
+                <SelectField field="fy_start_date" selected="True" />
+                <SelectField field="gaap_results" selected="True" />
+                <SelectField field="is_additional_ueis" selected="False" />
+                <SelectField field="is_aicpa_audit_guide_included" selected="False" />
+                <SelectField field="is_going_concern_included" selected="True" />
+                <SelectField field="is_internal_control_deficiency_disclosed" selected="True" />
+                <SelectField field="is_internal_control_material_weakness_disclosed" selected="True" />
+                <SelectField field="is_low_risk_auditee" selected="True" />
+                <SelectField field="is_material_noncompliance_disclosed" selected="True" />
+                <SelectField field="is_multiple_eins" selected="False" />
+                <SelectField field="is_public" selected="False" />
+                <SelectField field="is_secondary_auditors" selected="False" />
+                <SelectField field="is_sp_framework_required" selected="False" />
+                <SelectField field="number_months" selected="True" />
+                <SelectField field="oversight_agency" selected="True" />
+                <SelectField field="ready_for_certification_date" selected="False" />
+                <SelectField field="report_id" selected="True" />
+                <SelectField field="sp_framework_basis" selected="False" />
+                <SelectField field="sp_framework_opinions" selected="False" />
+                <SelectField field="submitted_date" selected="True" />
+                <SelectField field="total_amount_expended" selected="True" />
+                <SelectField field="type_audit_code" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[FAC_General Select columns ]]></AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="462" y="367" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF([is_going_concern_included] = &quot;Y&quot;, 1, 0)" field="going_concern_num" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([is_internal_control_deficiency_disclosed] = &quot;Y&quot;, 1, 0)" field="internal_control_def_num" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([is_internal_control_material_weakness_disclosed] = &quot;Y&quot;, 1, 0)" field="material_weakness_gen_num" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([is_material_noncompliance_disclosed] = &quot;Y&quot;, 1, 0)" field="noncompliance_num" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([is_low_risk_auditee] = &quot;Y&quot;, 1, 0)" field="low_risk_num" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([agencies_with_prior_findings] = &quot;Y&quot;, 1, 0)" field="prior_findings_num" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF(IsEmpty([total_amount_expended]) OR IsNull([total_amount_expended]), 0, ToNumber([total_amount_expended]))&#xA;" field="total_amount_expended_num" size="8" type="Double" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>going_concern_num = IIF([is_going_concern_included] = "Y", 1, 0)
+internal_contro...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="582" y="379" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="auditee_uei" action="GroupBy" rename="auditee_uei" />
+                <SummarizeField field="auditee_ein" action="First" rename="First_auditee_ein" />
+                <SummarizeField field="auditee_name" action="First" rename="First_auditee_name" />
+                <SummarizeField field="auditee_state" action="First" rename="First_auditee_state" />
+                <SummarizeField field="auditee_city" action="First" rename="First_auditee_city" />
+                <SummarizeField field="auditee_zip" action="First" rename="First_auditee_zip" />
+                <SummarizeField field="entity_type" action="First" rename="First_entity_type" />
+                <SummarizeField field="total_amount_expended_num" action="Sum" rename="Sum_total_amount_expended_num" />
+                <SummarizeField field="audit_year" action="CountDistinct" rename="CountDistinct_audit_year" />
+                <SummarizeField field="report_id" action="CountDistinct" rename="CountDistinct_report_id" />
+                <SummarizeField field="audit_year" action="Min" rename="Min_audit_year" />
+                <SummarizeField field="audit_year" action="Max" rename="Max_audit_year" />
+                <SummarizeField field="cognizant_agency" action="First" rename="First_cognizant_agency" />
+                <SummarizeField field="going_concern_num" action="Sum" rename="Sum_going_concern_num" />
+                <SummarizeField field="internal_control_def_num" action="Sum" rename="Sum_internal_control_def_num" />
+                <SummarizeField field="material_weakness_gen_num" action="Sum" rename="Sum_material_weakness_gen_num" />
+                <SummarizeField field="noncompliance_num" action="Sum" rename="Sum_noncompliance_num" />
+                <SummarizeField field="low_risk_num" action="Sum" rename="Sum_low_risk_num" />
+                <SummarizeField field="prior_findings_num" action="Sum" rename="Sum_prior_findings_num" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>FAC_General Summarize</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="726" y="379" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Khaled\AppData\Local\Temp\Alteryx\Engine_29348_d93d338fb28747aaaf085cf1057880df_\Engine_29348_47a7c4fb44e9b5438ed1a6dcda2da96a~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>FAC_General_ByEntity</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="305" y="53" width="539" height="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>FAC Findings Workflow</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>FAC Findings Workflow</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="330" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="report_id" selected="True" />
+                <SelectField field="auditee_uei" selected="True" />
+                <SelectField field="audit_year" selected="True" />
+                <SelectField field="award_reference" selected="True" />
+                <SelectField field="reference_number" selected="True" />
+                <SelectField field="is_material_weakness" selected="True" />
+                <SelectField field="is_modified_opinion" selected="True" />
+                <SelectField field="is_other_findings" selected="True" />
+                <SelectField field="is_other_matters" selected="True" />
+                <SelectField field="prior_finding_ref_numbers" selected="True" />
+                <SelectField field="is_questioned_costs" selected="True" />
+                <SelectField field="is_repeat_finding" selected="True" />
+                <SelectField field="is_significant_deficiency" selected="True" />
+                <SelectField field="type_requirement" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>FAC_Findings Select columns</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="462" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF([is_material_weakness] = &quot;Y&quot;, 1, 0)" field="material_weakness_number" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([is_repeat_finding] = &quot;Y&quot;, 1, 0)" field="repeat_finding_number" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([is_questioned_costs] = &quot;Y&quot;, 1, 0)" field="questioned_costs_number" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([is_significant_deficiency] = &quot;Y&quot;, 1, 0)" field="significant_deficiency_number" size="2" type="Int16" enabled="true" />
+                <FormulaField expression="IIF([is_modified_opinion] = &quot;Y&quot;, 1, 0)" field="modified_opinion_number" size="2" type="Int16" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>material_weakness_number = IIF([is_material_weakness] = "Y", 1, 0)
+repeat_findin...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="594" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="auditee_uei" action="GroupBy" rename="auditee_uei" />
+                <SummarizeField field="reference_number" action="Count" rename="Count" />
+                <SummarizeField field="material_weakness_number" action="Sum" rename="Sum_material_weakness_number" />
+                <SummarizeField field="repeat_finding_number" action="Sum" rename="Sum_repeat_finding_number" />
+                <SummarizeField field="questioned_costs_number" action="Sum" rename="Sum_questioned_costs_number" />
+                <SummarizeField field="significant_deficiency_number" action="Sum" rename="Sum_significant_deficiency_number" />
+                <SummarizeField field="modified_opinion_number" action="Sum" rename="Sum_modified_opinion_number" />
+                <SummarizeField field="audit_year" action="CountDistinct" rename="CountDistinct_audit_year" />
+                <SummarizeField field="audit_year" action="Min" rename="Min_audit_year" />
+                <SummarizeField field="audit_year" action="Max" rename="Max_audit_year" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>FAC_Findings Summarize</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="714" y="127" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Khaled\AppData\Local\Temp\Alteryx\Engine_29348_d93d338fb28747aaaf085cf1057880df_\Engine_29348_f316f616546d2844b52f9f227cbb1671~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>FAC_Findings_ByEntity</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Join" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Join" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="42" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="42" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>FAC_General</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8f9e89d7-cd0e-4db4-b0a1-168890d68746" />
+      <Telemetry>
+        <PreviousWorkflowId value="8111d3ec-c455-498a-abe1-bac04b9c8108" />
+        <OriginWorkflowId value="8111d3ec-c455-498a-abe1-bac04b9c8108" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
