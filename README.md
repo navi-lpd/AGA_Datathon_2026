@@ -1,6 +1,6 @@
 # Fiscal Patriots | AGA Datathon 2026
 
-This `main` branch is the clean release landing page: quick access to deliverables, a minimal pipeline proof, and data acquisition notes.
+This `main` branch is the clean release landing page: quick access to deliverables, a pipeline proof, and data acquisition notes.
 
 ## Deliverables (start here)
 - Dashboard: deliverables/dashboard/README.md
