@@ -3,6 +3,6 @@
 This folder is here to explain what goes in, what happens, and what comes out.
 
 See:
-- inputs_outputs.md for the short pipeline map
-- data_contract.md for required fields and join keys
+- [inputs_outputs.md](https://github.com/fiscalpatriots/AGA_Datathon_2026/blob/main/pipeline/inputs_outputs.md) for the short pipeline map
+- [data_contract.md](https://github.com/fiscalpatriots/AGA_Datathon_2026/blob/main/pipeline/data_contract.md) for required fields and join keys
 - workflows/ for the actual workflow files
