@@ -1,10 +1,6 @@
 # Pipeline (Overview)
 
-This folder is the minimal technical backbone of the project.
-It explains what goes in, what happens, and what comes out.
-
-For the detailed methodology, link to the appendix once it is placed under:
-- deliverables/report/
+This folder is here to explain what goes in, what happens, and what comes out.
 
 See:
 - inputs_outputs.md for the short pipeline map
