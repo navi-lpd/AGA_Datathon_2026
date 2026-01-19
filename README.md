@@ -4,11 +4,11 @@
 
 | Name | Role | Phone | Bio |
 |------|------|------|------|
-| Khaled Alkurd | Team Lead | (703) 231-4491
-| Pranavi Doodala | Project Manager |
-| Mariam Debas | Visualization Lead |
-| Nikita Chandrasing | Product Manager |
-| Andy Yaro | Product Developer |
+| Khaled Alkurd | Team Lead | (703) 231-4491 |
+| Pranavi Doodala | Project Manager |------|
+| Mariam Debas | Visualization Lead |------|
+| Nikita Chandrasing | Product Manager |------|
+| Andy Yaro | Product Developer |------|
 
 **AuditsMadeSimple • AGA Datathon 2026**
 
