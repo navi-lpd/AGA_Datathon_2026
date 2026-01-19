@@ -1,6 +1,11 @@
 # Fiscal Patriots
 
+
+
 **AuditsMadeSimple  •  AGA Datathon 2026**
+
+
+
 
 > A public-facing educational platform helping citizens explore federal financial assistance alongside audit oversight signals
 
@@ -54,6 +59,21 @@ We connect official public sources using UEI (Unique Entity Identifier) whenever
 | **SAM.gov** | Governmentwide exclusions — debarments, suspensions, and other exclusion actions | 167K records |
 
 ---
+
+USAspending transaction-level data was transformed into recipient-level summaries for each fiscal year (2019–2024), then combined to enable year-over-year trend analysis and cumulative funding calculations. Both yearly and all-years outputs were exported to CSV and Tableau Hyper formats for dashboard integration.
+
+<img width="1353" height="935" alt="USAspending_All_Years" src="https://github.com/user-attachments/assets/7f44edcb-4a57-4ab4-b20d-6b26beecc1ba" />
+
+<img width="1770" height="1121" alt="USAspending_FY2023" src="https://github.com/user-attachments/assets/8869ee33-56bc-48c5-8751-47e56452ad79" />
+
+<img width="1728" height="932" alt="USAspending_FY2024" src="https://github.com/user-attachments/assets/c9c9ff4f-81b6-488b-acb6-cb003f5e7798" />
+
+<img width="1285" height="806" alt="SAM_FAC_Merged" src="https://github.com/user-attachments/assets/c39614c7-d663-4933-b062-093513ea3b05" />
+
+<img width="1272" height="1132" alt="SAM_Exclusion_Cleaning" src="https://github.com/user-attachments/assets/b983f7d1-e5ea-40dd-8efe-7947c34f0cf8" />
+
+<img width="2083" height="1109" alt="FAC Master Clean" src="https://github.com/user-attachments/assets/676f71b2-e1c8-4644-8104-6bc4053b31c6" />
+
 
 ## Audit Health Score
 
