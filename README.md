@@ -65,21 +65,6 @@ assets/ Repo visuals used in README/docs
 
 ---
 
-## Screenshot Gallery (Everything in-repo)
-
-This section is intentionally exhaustive so every screenshot in the repo has a place to render in the README.
-
-### Repo visuals
-
-![Dashboard overview](assets/dashboard.png)
-![Pipeline overview](assets/pipeline.png)
-
-### Competition reference
-
-![Allowable Data Sources](docs/competition/Allowable%20Data%20Sources.png)
-
----
-
 ## Methodology Screenshots (Alteryx)
 
 These live in:
