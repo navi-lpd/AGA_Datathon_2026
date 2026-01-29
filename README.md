@@ -22,12 +22,6 @@
 
 ---
 
-## Abstract
-
-Fiscal Patriot Dashboard integrates USAspending, FAC, and SAM data to help citizens explore $8.58 trillion in federal financial assistance alongside audit oversight signals. Our Audit Health Score identified $1.09 trillion flowing to repeatedly flagged entities, with interactive dashboards and a glossary making government accountability accessible to non-technical users.
-
----
-
 ## Development Tools
 
 | Category | Tools |
@@ -68,17 +62,16 @@ Fiscal Patriot Dashboard integrates USAspending, FAC, and SAM data to help citiz
 
 ## Why This Exists
 
-Federal funding data is large, fragmented, and hard to interpret quickly. Audit oversight data is even harder because it uses specialized terminology and the impact is not always obvious. Our goal is to make these systems approachable without oversimplifying the responsibility required to interpret oversight signals.
+Federal funding data is large, fragmented, and hard to interpret quickly. Audit oversight data is even harder because it uses specialized terminology and the impact is not always obvious. Our goal is to make these systems approachable for everyone.
 
 **This project helps users:**
 - Explore funding patterns by geography and time
 - Learn audit terminology with plain-language definitions
-- Use a screening signal (Audit Health Score) to identify entities that may merit a closer look
-- Follow guided examples (case studies and next steps) to investigate responsibly
+- Follow guided examples (case studies and next steps) to investigate audit data more deeply
 
 ---
 
-## What We Built
+## Key Features of AuditsMadeSimple
 
 ### 1) Interactive Exploration (Tableau)
 Dashboards that highlight:
@@ -95,9 +88,6 @@ Plain descriptions of USAspending, FAC, and SAM: what each tracks, what each mis
 
 ### 4) Guided Engagement (Case Studies + What’s Next)
 Short walkthroughs and a checklist-style “What’s next?” page that keeps visitors engaged after their first chart.
-
-### 5) Audit Health Score (Screening Signal)
-A simple, interpretable 0–100 score designed to help users prioritize attention without claiming wrongdoing.
 
 ---
 
@@ -206,54 +196,12 @@ This visualization shows the relationship between Audit Health Score and federal
 
 ---
 
-## Audit Health Score
-
-A 0–100 screening signal designed for interpretability and responsible prioritization.
-
-### Definition
-
-`Audit Health Score = 100 − Risk Points (capped to keep score in 0–100 range)`
-
-### Tiering
-
-| Tier | Score | Interpretation |
-|------|-------|----------------|
-| 🟢 **Green** | 80–100 | Fewer oversight signals — continue standard validation |
-| 🟡 **Yellow** | 60–79 | Moderate signals — review patterns year-over-year |
-| 🔴 **Red** | 0–59 | Highest oversight signals — prioritize for deeper review |
-
-> ⚠️ **Important:** This score is a prioritization aid, not a verdict. It does not prove fraud, waste, or abuse.
-
-Scoring documentation:
-- `docs/appendix_hubs/scoring/score_formula_and_tiers.md`
-- `docs/appendix_hubs/scoring/variable_definitions.md`
-- `docs/appendix_hubs/scoring/weighting_rationale.md`
-
----
-
 ## How to Explore the Project
 
 1. Visit the live site: https://gmufiscalpatriots.bytechisel.com  
 2. Open the Tableau dashboards (linked from the site)
 3. Read the glossary to understand audit terminology
 4. Use “What’s next?” to follow guided questions and case studies
-
----
-
-## Tools & Technologies
-
-| Category | Tools |
-|----------|-------|
-| Data Processing | Alteryx, Python |
-| Visualization | Tableau Public |
-| Machine Learning | scikit-learn |
-| Website | HTML, CSS, AWS |
-
----
-
-## Disclaimer
-
-This project is for educational and public understanding purposes. Audit and exclusion signals require context. The presence of a finding or a higher-risk tier is not proof of wrongdoing. Always validate conclusions using primary documentation, program context, and appropriate investigative standards.
 
 ---
 
