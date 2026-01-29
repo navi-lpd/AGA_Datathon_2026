@@ -84,7 +84,7 @@ Dashboards that highlight:
 A glossary translating common audit and spending terms into short, usable definitions.
 
 ### 3) Dataset Guide
-Plain descriptions of USAspending, FAC, and SAM: what each tracks, what each misses, and how to use them responsibly.
+Plain descriptions of USAspending, FAC, and SAM: what each tracks and how they can be used by different communities.
 
 ### 4) Guided Engagement (Case Studies + What’s Next)
 Short walkthroughs and a checklist-style “What’s next?” page that keeps visitors engaged after their first chart.
