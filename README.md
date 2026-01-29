@@ -12,7 +12,7 @@
 
 **AuditsMadeSimple • AGA Datathon 2026**
 
-> A public-facing educational platform helping citizens explore federal financial assistance alongside audit oversight signals.
+> A public-facing educational platform helping citizens understand federal financial assistance and audit data.
 
 🌐 **Live Website:** https://gmufiscalpatriots.bytechisel.com
 
