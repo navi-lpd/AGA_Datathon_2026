@@ -153,12 +153,6 @@ SAM exclusion records were split by UEI availability (38K with UEI, 120K legacy 
 
 ![SAM Exclusion Cleaning](docs/appendix_hubs/methodology/screenshots/alteryx/SAM_Exclusion_Cleaning.png)
 
-**ML Training Dataset Build**
-
-Consecutive fiscal years were joined on UEI to create a supervised learning dataset, using prior-year audit signals as predictors and next-year finding occurrence as the target variable. This structure enables predictive modeling of future audit risk.
-
-![FAC USAspending ML Training](docs/appendix_hubs/methodology/screenshots/alteryx/FAC_USAspending_ML_Training.png)
-
 ---
 
 ## Methodology Screenshots (Tableau)
